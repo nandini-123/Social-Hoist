@@ -1,0 +1,19 @@
+select{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+select option{
+cursor: pointer;
+padding: auto 3px;
+}
+#tagname{
+    font-size: 2rem;
+    font-family: '';
+}
+/* .navbar{
+    position: relative;
+}
+.navbar .sticky{
+position:fixed;
+} */

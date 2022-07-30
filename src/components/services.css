@@ -1,0 +1,41 @@
+:root{
+    /* --my-bg-color: linear-gradient( rgba(209, 130, 199, 0.6) , rgba(42, 47, 69, 0.7)); */
+    /* --my-bg-color: linear-gradient(#f8c6ff -3.41%,rgba(255,196,255,0) 52.31%,#ffeec4); */
+    --my-bg-color: linear-gradient(#f8c6ff , #f8c6ff)
+}
+.services{
+height: 100vh;
+/* background-color: rgb(139, 197, 171); */
+background-image: var(--my-bg-color);
+margin: 40px;
+margin-top: 90px;
+border-radius: 2rem;
+background: linear-gradient(338.83deg,#b795bb -3.41%,rgba(255,196,255,0) 52.31%),#c2e0d5;;
+}
+/* .heading{
+    margin-top: 40px;
+} */
+
+.services:hover{
+    margin: 30px;
+    transition: 0.3s ease;
+}
+
+.title-services{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 50px;
+    padding-left: 60px;
+    text-align: center;
+}
+.content{
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: 'Cardo', serif;
+    font-weight: 600;
+    padding-top: 50px;
+    text-align: left;
+}
+ .content ul li{
+    padding: 15px 10px 10px 10px ;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Rubik+Moonrocks&family=Shadows+Into+Light&display=swap');
+
+:root{
+    --mycolor: linear-gradient(rgba(145, 238, 220, 0.7),rgba(10,185,149,0) ,#e8cd56);
+    /* --mycolor: linear-gradient( rgba(255, 243, 79, 0.921) , rgb(244, 181, 87)); */
+
+}
+.column-left{
+    width: 50%;
+}
+
+.topic{
+    font-size: 7rem;
+    font-family: 'Rubik Moonrocks', cursive;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   height: 100vh;
+   padding-left: 90px;
+}
+.max-width:hover{
+    margin: 30px;
+    transition: 0.3s ease;
+}
+
+ .smpage-content{
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', cursive;
+}
+.column-right{
+    width: 50%;
+}
+.max-width{
+    height: 100vh;
+    /* background-color: rgb(189, 166, 180); */
+    background-image: var(--mycolor);
+
+    border-radius: 2rem;
+    margin: 40px;
+}
+.content{
+display: flex;
+align-items: center;
+}
+ .max-width .content {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+}
+ /* .max-width .text {
+margin: 40px;
+font-size: 2rem;
+font-family: 'Ubuntu', sans-serif;
+text-align: center;
+} */
+
+/* COLUMN RIGHT STYLING */
+/* .content .column-right  {
+    width: 50%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+    /* display: flex;
+    flex-direction: row; */
+ /* } */
+  /* .max-width .content .column-right .info{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ }  */
+/* .content .column-right p{
+ font-weight: 500;
+ font-size: 18px;
+ } */
+ 
+ 
+ 
