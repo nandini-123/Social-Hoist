@@ -1,0 +1,45 @@
+:root{
+    --my-backg-color: linear-gradient(to bottom right,  rgba(181, 224, 211, 0.712), rgba(95, 114, 171, 0.7));
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.strategies{
+    height:100vh;
+    /* background-color: rgb(177, 209, 209); */
+    background-color: rgb(242, 241, 243);
+    background-image: var(--my-backg-color);
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 40px;
+    border-radius: 2rem;
+}
+.strategy-heading{
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-weight: 200;
+    font-size: 2.5rem;
+    
+}
+.strategies:hover{
+    margin: 30px;
+    transition: 0.3s ease;
+}
+
+.list {
+  text-align: left;
+   list-style-type: square;
+   margin-top: 60px;
+ 
+}
+.list li{
+    padding: 15px 10px 10px 10px;
+    margin-left: 300px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Cardo', serif;;
+}

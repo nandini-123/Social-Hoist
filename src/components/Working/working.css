@@ -1,0 +1,86 @@
+:root{
+    --colour: linear-gradient(to bottom right,  rgba(16, 80, 90, 0.712), rgba(180, 181, 186, 0.7));
+}
+
+.working{
+    height: 100vh;
+    border-radius: 2rem;
+    background-image: var(--colour);
+    margin: 40px;
+    font-family: 'Cardo', serif;
+    background-color: rgb(242, 241, 243);
+}
+.working:hover{
+margin: 30px;
+transition: 0.3s ease;
+}
+
+.working-heading{
+    justify-content: left;
+    padding-top: 70px;
+    padding-left: 100px;
+    font-family: 'Cardo', serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* .columns-steps{
+    margin-top: 150px;
+} */
+p{
+    font-family: 'Cardo' , serif;
+}
+.step-1{
+    font-size: 1.7rem;
+font-family: 'Cardo', serif;
+margin-top: 200px;
+}
+.step-2{
+    font-size: 1.7rem;
+font-family: 'Cardo', serif;
+margin-top: 150px;
+}
+.step-3{
+    font-size: 1.7rem;
+font-family: 'Cardo', serif;
+margin-top: 100px;
+
+
+}
+.steps-content-1{
+font-size: 1.4rem;
+font-family: 'Cardo', serif;
+margin-top: 20px;
+
+}
+.steps-content-2{
+    font-size: 1.4rem;
+    font-family: 'Cardo', serif;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.steps-content-3{
+    font-size: 1.4rem;
+    font-family: 'Cardo', serif;
+    margin-top: 20px;
+}
+.ima1{
+    height: 30px;
+    width: 30px;
+    border-radius: 70px;
+    background-color: black;
+    margin-top: 30px;
+}
+.ima2{
+    height: 40px;
+    width: 40px;
+    border-radius: 70px;
+    background-color: black;
+    margin-top: 20px;
+}
+.ima3{
+    height: 50px;
+    width: 50px;
+    border-radius: 70px;
+    background-color: black;
+    margin-top: 10px;
+}

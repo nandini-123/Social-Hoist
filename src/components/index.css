@@ -8,6 +8,10 @@
 :root{
   --homecolorbg: linear-gradient( white, grey)
 }
+.Homepage{
+  background-color: rgb(242, 241, 243);
+
+}
 .home{
   font-family: 'Cardo',serif;
 /* background-color: rgb(151, 226, 201);   */
@@ -24,29 +28,34 @@
   
 }
 .image{
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
+}
+.navpad{
+  padding: 15px;
 }
 .home-nav .navbar{
-  position: fixed;
+  /* position: fixed; */
       z-index: 999;
       /* background-color: rgb(215, 240, 231);   */
       /* background-color: #5e9790d1; */
       /* background-color: #5CDB95; */
       background-color: white;
-
       transition:all 0.3s ease ;
       width: 100%;
       /* font-family: 'Ubuntu', sans-serif  ; */
-      padding: 5px 5px;
+      padding: 10px 10px;
+      margin: 0;
       
 }
 .home-nav{
   color: black;
+  margin: 0;
+
 }
-#navbarSupportedContent{
+/* #navbarSupportedContent{
   margin-top: 0px;
-}
+} */
 .navbar.sticky{
   /* background:rgb(151, 226, 201) ; */
   /* background:#157368 ; */
@@ -145,7 +154,7 @@ font-family: 'Cardo', serif; ;
   margin-left: 150px;
 }
 .margin{
-  margin-right: 100px;
+  margin-right: 10px;
 }
 /* RESPONSIVE STYLING */
 
